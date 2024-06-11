@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    font-family:Outfit;
+    background-color: skyblue;
+    line-height:2;
+    font-size:18px;
+}
+.expertise{
+    background-image:url(img1.jpg) ;
+  }
+.opacity {
+    background-color: #ffffff;
+    opacity:0.7;
+  }
+

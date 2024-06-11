@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    font-family:Outfit;
+    background:url(envi.jpg) ;
+    background-size:100% 35%;
+    background-repeat:inherit;
+}
+nav{
+    display: flex;
+    text-align:center;
+    justify-content:space-between;
+    color:rgb(10, 75, 10);
+    padding:10px 20px 10px 20px;
+    margin:20px;
+    text-decoration:none;
+}
+.crpt{
+    font-family:fantasy;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    color:rgb(2, 80, 60);
+    background-image: url(leaf.jpg);
+    background-size:100px 70px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+.links2{
+    font-size: large;
+    display: flex;
+    text-decoration:none;
+    color:white;
+    
+}
+.map-container{
+    margin:300px 50px 170px 450px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration:none;
+    color:rgb(10, 70, 55);
+}
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:black; }
+a:active { text-decoration: none; color:teal; }
+.link-box {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-decoration: none; /* Remove underline from the link */
+    color: #333;
+    border-radius: 5px;
+}
+.link1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    text-decoration: none; /* Remove underline from the link */
+    color: #333;
+    border-radius: 5px;
+    margin:20px;
+}
+.link2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    text-decoration: none; /* Remove underline from the link */
+    color: #333;
+    border-radius: 5px;
+    margin:20px;
+}
+
+.link3{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    text-decoration: none; /* Remove underline from the link */
+    color: #333;
+    border-radius: 5px;
+    margin:20px;
+
+}
+.link4{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    text-decoration: none; /* Remove underline from the link */
+    color: #333;
+    border-radius: 5px;
+    margin:20px;
+
+}
+.link1:hover {
+    background-color: #ec8627;
+}
+.link2:hover {
+    background-color: #ec8627;
+}
+.link3:hover {
+    background-color: #ec8627;
+}
+.link4:hover {
+    background-color: #ec8627;
+}
+#links{
+    color:white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color:#ec8627;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px; /* Increases padding for larger content box */
+    border-radius: 5px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown {
+    margin-bottom: 20px; /* Adds spacing between topics */
+  }
+  .dropdown-heading {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#ec8627 ;
+    color: #fff;
+    border-radius: 5px;
+    margin:20px;
+  }
+  .dropdown-content p {
+    padding: 5px;
+    margin: 0;
+  }
+  .boxes{
+    display:flex;
+
+  }
+.findexperts{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ec8627;
+    text-decoration: none; /* Remove underline from the link */
+    color: #333;
+    border-radius: 5px;
+    margin:20px;
+}
+.training{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ec8627;
+    text-decoration: none; /* Remove underline from the link */
+    color: #333;
+    border-radius: 5px;
+    margin:20px;
+}
+.reports{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ec8627;
+    text-decoration: none; /* Remove underline from the link */
+    color: #333;
+    border-radius: 5px;
+    margin:20px;
+}
+.heading{
+        position: absolute;
+        left: 650px;
+        top:700px;
+}
+.subheading{
+    position: absolute;
+    left: 510px;
+    top:740px;
+    text-align: center;
+    color:white;
+}
+#explorer1{
+    position: relative;
+    left:75px;
+    top:75px;
+    margin:10px 50px 100px 50px;
+}
+  

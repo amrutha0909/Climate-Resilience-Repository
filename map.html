@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clickable Map</title>
+  <style>
+    .map-container {
+      position: relative;
+    }
+
+    .map-pointer {
+      position: absolute;
+      cursor: pointer;
+      width: 10px;
+      height: 10px;
+      background-color: red;
+      border-radius: 70%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="map-container">
+    <!-- Map image -->
+    <img src="india-map.jpg" alt="Your Map" id="map" style="width: 100%; height: auto;">
+
+    <!-- Clickable pointers -->
+    <div class="map-pointer" style="left: 33.77%; top:14.4%;" onclick="openPage('https://www.example.com/page1')"> </div>
+    <div class="map-pointer" style="left: 36%; top: 22%;" onclick="openPage('https://www.example.com/page2')"> </div>
+    <!-- Add more pointers as needed -->
+    <div class="map-pointer" style="left: 31.3%; top: 25.5%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 36%; top: 32.29%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 33.9%; top: 30.5%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 41.3%; top: 27.2%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 26%; top: 37.8%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 44.4%; top: 36.4%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 58.85%; top: 41%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 38.86%; top: 48.3%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 20.65%; top: 48.85%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 31.31%; top: 59.1%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 48.5%; top: 53%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 40.6%; top: 62.9%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 32.3%; top: 72%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 55.7%; top: 55.4%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 41%; top: 71.4%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 57.2%; top: 46.7%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 34.09%; top: 83.93%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 66.22%; top: 35.4%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 38.68%; top: 48.36%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 64.42%; top: 48.2%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 78.68%; top: 38.85%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 82.13%; top: 33.11%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 82.78%; top: 39.83%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 81%; top: 44.09%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 78.03%; top: 47.37%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 74.75%; top: 46.72%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 72.78%; top: 41.47%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <div class="map-pointer" style="left: 39.18%; top: 82%;" onclick="openPage('https://www.example.com/page3')"> </div>
+    <!-- State info display -->
+    <div id="state-info"></div>
+  </div>
+
+  <script>
+    function openPage(url) {
+      window.open(url, '_blank'); // Opens the URL in a new tab
+    }
+  </script>
+</body>
+</html>

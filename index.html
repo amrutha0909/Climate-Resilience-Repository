@@ -1,0 +1,222 @@
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <nav>
+      <div class="crpt">
+      <h2>Climate Resilience<br>Planning Tool</h2> 
+      </div>      
+      <div class="sr">
+      <a href="#stepstoresilience"><h2>Steps To Resilience</h2></a>
+      </div>
+      <div class="cs">
+      <a href="#casestudies"><h2>Case Studies</h2></a>
+      </div>
+      <div class="ex">
+      <a href="#expertise"><h2>Expertise</h2></a>
+      </div>
+      <div class="ce">
+      <a href="#explorer"><h2>Climate Explorer</h2></a> 
+      </div>  
+      <div class="gr">
+        <a href="#links"><h2>Government Resources</h2></a>
+      </div>
+    </nav>
+    <div class="stepstoresilience" id="stepstoresilience">
+      <h1 style="color:white; text-align: center;">Steps To Resilience</h1><br><br>
+      <p style="color:white;font-size: 20px;">Climate resilience is a new concept to many. It is all about preparing ourselves to face challenges related to climate change and coming up with solutions for sustainable development.<br>
+        Here are some steps to climate resilience:<br><br><br>
+      </p>
+        <div class="dropdown">
+        <!-- Add more topic information as needed -->
+      </div>
+      <div class="dropdown" onclick="toggleDropdown('topic1-info')">
+        <h3 class="dropdown-heading">1.Understanding Exposure</h3>
+        <div class="dropdown-content" id="topic1-info">
+          <p><h1>Identify the things your community cares about
+            List the climate-related hazards you could face.</h1> Examples:
+            Flooding, drought, hurricane, heat wave, landsliding, lightning, etc.
+            <h1>Answer these questions:</h1>
+            <ol>
+            <li>What hazards have occurred in your region in the past?</li>
+            <li>What hazards might occur over the next decade or so?</li>
+            <li>What hazards might you face over the next several decades?</li>
+            <li>Could rising sea levels impact your region?</li>
+            <li>Which of your assets are exposed to weather and climate?</li></ol>
+            <h1>Imagine and describe potential consequences</h1>
+            <h1>Recognize the role of stressors</h1></p>
+        </div>
+      </div>
+      
+      <div class="dropdown" onclick="toggleDropdown('topic2-info')">
+        <h3 class="dropdown-heading">2.Assess Vulnerabilities and Risk</h3>
+        <div class="dropdown-content" id="topic2-info">
+          <p><h1>The first element of risk is the probability of a hazard occurring.</h1>
+            <ul>
+            <li>How likely is it that the hazard will happen in your location?</li>
+            <li>How frequently has it occurred in the past, and is that frequency increasing due to climate change?</li>
+            </ul>
+            <h1>The second element is the magnitude of consequences from the event.</h1>
+            <ul>
+               <li>Would the hazard cause a major disruption for a large number of people for an extended period?</li>
+               <li>Would it require large amounts of money and time to regain the previous level of function?</li></ul></p>
+        </div>
+      </div>
+      
+      <div class="dropdown" onclick="toggleDropdown('topic3-info')">
+        <h3 class="dropdown-heading">3.Investigate Options</h3>
+        <div class="dropdown-content" id="topic3-info">
+          <p><h1>Brainstorm potential solutions</h1>
+            <ul><li>Develop a wide-ranging list of strategies that could reduce risk.</li></ul>
+            <h1>Learn from others</h1>
+            <ul><li>Explore case studies and adaptation planning resources.</li></ul>
+            <h1>Evaluate potential solutions</h1>
+            <ul><li>Decide which of your options represent viable actions.</li></ul>
+            <h1>Refine your goals</h1>
+            <ul><li>Consider what you’ve learned and reassess where you’re going.</li></ul>
+            <h1>Decision point</h1>
+            <ul><li>Are community members committed to the goals you identified?</li></ul></p>
+        </div>
+      </div>
+      <div class="dropdown" onclick="toggleDropdown('topic2-info')">
+        <h3 class="dropdown-heading">4.Prioritise and Plan</h3>
+        <div class="dropdown-content" id="topic2-info">
+          <p><h1>Consolidate actions into a cohesive plan</h1>
+            <ul><li>Combine similar actions and sequence them to reduce risk across assets.</li></ul>
+            <h1>Estimate the expected value of each action</h1>
+            <ul><li>Assess whether investments will reduce risk.</li></ul>
+            <h1>Evaluate trade-offs</h1>
+            <ul><li>In light of limited resources, decide what you can do.</li></ul>
+            <h1>Plan the project</h1>
+            <ul><li>Develop a timeline and milestones to mark your progress.</li></ul></p>
+        </div>
+      </div>
+      <div class="dropdown" onclick="toggleDropdown('topic2-info')">
+        <h3 class="dropdown-heading">5.Final Action</h3>
+        <div class="dropdown-content" id="topic2-info">
+          <p><h1>Implement your plan</h1>
+            <h1>Monitor your results</h1>
+            <h1>Iterate as needed</h1>
+            <ul><li>Watch for opportunities to improve or recover from missteps.</li></ul></p><br><br><br><br><br>
+        </div>
+      </div>
+      
+    <style>
+        .map-container {
+          position: relative;
+          width:550px;
+          height:550px;
+          align-items: center;
+        }
+    
+        .map-pointer {
+          position: absolute;
+          cursor: pointer;
+          width: 10px;
+          height: 10px;
+          background-color: green;
+          border-radius: 70%;
+          transform: translate(-50%, -50%);
+        }
+      </style>
+    </head> 
+    <div class="heading">
+    <header id="casestudies"><h1 style="color:white; text-align: center;">Case Studies</h1></header><br><br>
+    </div>
+    <div class="subheading">
+    <h3>Click on any state to read a state-specific case study!</h3></div>
+    <div class="map-container">
+        <!-- Map image -->
+        <img src="map image.jpg" alt="Your Map" id="map" style="width: 100%; height: auto;">
+    
+        <!-- Clickable pointers -->
+        <div class="map-pointer" style="left: 33.77%; top:14.4%;" onclick="openSection('14')"></div>
+        <div class="map-pointer" style="left: 36%; top: 22%;" onclick="openSection('9')"> </div>
+        <!-- Add more pointers as needed -->
+        <div class="map-pointer" style="left: 31.3%; top: 25.5%;" onclick="openSection('21')"> </div>
+        <div class="map-pointer" style="left: 36%; top: 32.29%;" onclick="openSection('29')"> </div>
+        <div class="map-pointer" style="left: 33.9%; top: 30.5%;" onclick="openSection('8')"> </div>
+        <div class="map-pointer" style="left: 41.3%; top: 27.2%;" onclick="openSection('28')"> </div>
+        <div class="map-pointer" style="left: 26%; top: 37.8%;" onclick="openSection('22')"> </div>
+        <div class="map-pointer" style="left: 44.4%; top: 36.4%;" onclick="openSection('27')"> </div>
+        <div class="map-pointer" style="left: 58.85%; top: 41%;" onclick="openSection('4')"> </div>
+        <div class="map-pointer" style="left: 20.65%; top: 48.85%;" onclick="openSection('7')"> </div>
+        <div class="map-pointer" style="left: 31.31%; top: 59.1%;" onclick="openSection('15')"> </div>
+        <div class="map-pointer" style="left: 48.5%; top: 53%;" onclick="openSection('5')"> </div>
+        <div class="map-pointer" style="left: 40.6%; top: 62.9%;" onclick="openSection('25')"></div>
+        <div class="map-pointer" style="left: 32.3%; top: 72%;" onclick="openSection('11')"> </div>
+        <div class="map-pointer" style="left: 55.7%; top: 55.4%;" onclick="openSection('20')"></div>
+        <div class="map-pointer" style="left: 41%; top: 71.4%;" onclick="openSection('1')"> </div>
+        <div class="map-pointer" style="left: 57.2%; top: 46.7%;" onclick="openSection('10')"> </div>
+        <div class="map-pointer" style="left: 34.09%; top: 83.93%;" onclick="openSection('12')"> </div>
+        <div class="map-pointer" style="left: 66.22%; top: 35.4%;" onclick="openSection('23')"> </div>
+        <div class="map-pointer" style="left: 38.68%; top: 48.36%;" onclick="openSection('13')"></div>
+        <div class="map-pointer" style="left: 64.42%; top: 48.2%;" onclick="openSection('30')"> </div>
+        <div class="map-pointer" style="left: 78.68%; top: 38.85%;" onclick="openSection('3')"> </div>
+        <div class="map-pointer" style="left: 82.13%; top: 33.11%;"onclick="openSection('2')"> </div>
+        <div class="map-pointer" style="left: 82.78%; top: 39.83%;" onclick="openSection('19')"></div>
+        <div class="map-pointer" style="left: 81%; top: 44.09%;" onclick="openSection('16')"> </div>
+        <div class="map-pointer" style="left: 78.03%; top: 47.37%;" onclick="openSection('18')"> </div>
+        <div class="map-pointer" style="left: 74.75%; top: 46.72%;" onclick="openSection('26')"> </div>
+        <div class="map-pointer" style="left: 72.78%; top: 41.47%;" onclick="openSection('17')"></div>
+        <div class="map-pointer" style="left: 39.18%; top: 82%;" onclick="openSection('tam')"> </div>
+        <div class="map-pointer" style="left: 28%; top: 71.14%;" onclick="openSection('6')"> </div>
+        <!-- State info display -->
+        <div id="state-info"></div>
+      </div>
+    </div>
+    <div class="expertise" id="expertise">
+      <h1 style="color:white;text-align: center;">Expertise</h1><br><br>
+      <div class="boxes">
+      <a href="expertise.html#tools"><div class="reports"><h1 style="text-align: center;">Reports And Tools</h1>
+      <p style="font-size: 20px;">Access climate-relevant reports and tools issued by government agencies and scientific organizations</p></a>
+      </div>
+      <a href="expertise.html#training"><div class="training">
+        <h1 style="text-align: center;">Training Courses and Schedules</h1>
+        <p style="font-size: 20px;">Train yourself to become climate resilient</p></a><br><br>
+      </div>
+      <a href="expertise.html#findexperts"><div class="findexperts"><h1 style="text-align: center;">Find Experts</h1>
+        <p style="font-size: 20px;">Locate climate science and service centers that can help you build resilience</p></a><br><br>
+        </div>
+    </div>
+    <div class="explorer" id="explorer">
+      <h1 style="text-align: center; color:white">Climate Explorer</h1>
+      <h3 style="color:white">Individuals, businesses, and communities of all sizes can use the Climate Explorer to understand how climate conditions in their locations are projected to change over coming decades. This information—derived from global climate models—can help people assess potential exposure, vulnerability, and risk to their assets.</h3>
+      <a href="https://jalsuraksha.iitd.ac.in/climatechange/index.html"><img src="Screenshot 2024-04-11 233644.jpg" id="explorer1"></a>
+    </div>
+      <div class="links"> 
+        <h1 id="links" style="text-align:center">Government Resources</h1> <br><br>
+        <div class="links2">    
+        <div class="link1">        
+      <a href="https://www.niti.gov.in/sites/default/files/2019-01/Rev_Building%20Climate%20Resilience%20in%20India_9.2-%20Dr%20RR%20Rashmi.pdf" id="link1"><h3>Building Resilience To Climate Change In India</h3></a>
+        </div>
+        <div class="link2">
+      <a href="https://dst.gov.in/climate-change-programme" id="link2"><h3>Climate Change Programmes in India</h3></a>
+        </div>
+        <div class="link3">
+      <a href="https://dst.gov.in/climate-resilient-development-indian-himalayan-region-discussed-indian-side-event-cop-28"><h3>Climate Resilient Development in Indian Himalayan Region</h3></a>
+        </div>
+        <div class="link4">
+      <a href="https://niua.in/csc/assets/pdf/key-documents/phase-2/Up-GreenC-and-BIO/ClimateResilientandDisasterSafeDevelopmentProcessFramework.pdf"><h3>Climate Resilient and Disaster Safe Development</h3></a>
+        </div>
+        </div>
+        </div>
+      </div>
+      <script>
+        function openSection(sectionId) {
+      // Open the second page and append the section ID to the URL
+      window.open('map info.html#' +sectionId, '_blank');
+    }
+      </script>
+      <script>
+        function toggleDropdown(id) {
+          var dropdownContent = document.getElementById(id);
+          dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+        }
+      </script>
+      
+ 
+</body>
+</html>
